@@ -1,0 +1,34 @@
+{
+    "notification_title": {
+        "message": "Break Time!",
+        "description": "Title for the break time notification"
+    },
+    "notification_message": {
+        "message": "You've completed the session: \"{sessionTitle}\". Take a few minutes to recharge.",
+        "description": "Message for the break time notification"
+    },
+        "title": {
+        "message": "Pomodoro Timer"
+    },
+    "session_title_label": {
+        "message": "Session Title"
+    },
+    "session_title_placeholder": {
+        "message": "Enter the title"
+    },
+    "duration_label": {
+        "message": "Duration (minutes)"
+    },
+    "start_button": {
+        "message": "Start"
+    },
+    "stop_button": {
+        "message": "Stop"
+    },
+    "reset_button": {
+        "message": "Reset"
+    },
+    "powered_by": {
+        "message": "Powered by: "
+    }
+}

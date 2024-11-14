@@ -1,0 +1,34 @@
+{
+    "notification_title": {
+        "message": "¡Tiempo de descanso!",
+        "description": "Título para la notificación de tiempo de descanso"
+    },
+    "notification_message": {
+        "message": "Has completado la sesión: \"{sessionTitle}\". Tómate unos minutos para recargar energías.",
+        "description": "Mensaje para la notificación de tiempo de descanso"
+    },
+    "title": {
+        "message": "Temporizador Pomodoro"
+    },
+    "session_title_label": {
+        "message": "Título de la sesión"
+    },
+    "session_title_placeholder": {
+        "message": "Escribe el título"
+    },
+    "duration_label": {
+        "message": "Duración (minutos)"
+    },
+    "start_button": {
+        "message": "Iniciar"
+    },
+    "stop_button": {
+        "message": "Detener"
+    },
+    "reset_button": {
+        "message": "Reiniciar"
+    },
+    "powered_by": {
+        "message": "Desarrollado por: "
+    }
+}

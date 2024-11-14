@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Temporizador Pomodoro",
+    "description": "Una extensión para gestionar sesiones de enfoque y descanso utilizando la técnica Pomodoro.",
+    "version": "1.0",
+    "icons": {
+        "128": "icon.webp"
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.webp"
+    },
+    "default_locale": "en"
+}

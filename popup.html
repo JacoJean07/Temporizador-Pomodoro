@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="coffee">
+
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="title">Temporizador Pomodoro</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-base-200 p-4">
+    <div class="card w-80 bg-base-100 shadow-xl">
+        <div class="card-body items-center text-center">
+            <h2 class="card-title" data-i18n="title">Temporizador Pomodoro</h2>
+            <div class="form-control w-full max-w-xs">
+                <label class="label">
+                    <span class="label-text" data-i18n="session_title_label">Título de la sesión</span>
+                </label>
+                <input type="text" id="session-title" placeholder="Escribe el título"
+                    class="input input-bordered w-full max-w-xs" data-i18n-placeholder="session_title_placeholder" />
+            </div>
+            <div class="form-control w-full max-w-xs mt-4">
+                <label class="label">
+                    <span class="label-text" data-i18n="duration_label">Duración (minutos)</span>
+                </label>
+                <input type="number" id="session-duration" placeholder="25" class="input input-bordered w-full max-w-xs"
+                    min="1" />
+            </div>
+            <div class="my-4">
+                <span id="time" class="text-5xl font-mono">00:00:00</span>
+            </div>
+            <div class="card-actions">
+                <button id="start" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                    </svg>
+                </button>
+                <button id="stop" class="btn btn-accent">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-pause-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5m5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5" />
+                    </svg>
+                </button>
+                <button id="reset" class="btn btn-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-counterclockwise" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2z" />
+                        <path
+                            d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466" />
+                    </svg>
+                </button>
+
+            </div>
+            <p>
+                <span data-i18n="powered_by">Powered by:</span>
+                <a class="link" target="_blank" href="https://jacojean.pro/">Jaco Jean</a>
+            </p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
